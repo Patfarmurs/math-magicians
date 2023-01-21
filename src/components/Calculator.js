@@ -13,11 +13,11 @@ const CalcUserInterface = () => {
     <section>
       <div className="container">
         <div className="header">
-          <button type="button" className="tag">
+          <div className="tag">
             {total}
             {operation}
             {next}
-          </button>
+          </div>
         </div>
         <div className="calc-button">
           <button type="submit" onClick={(event) => handleClick(event, state, setter)}>AC</button>
