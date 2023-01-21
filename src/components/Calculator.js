@@ -46,4 +46,3 @@ const CalcUserInterface = () => {
 };
 
 export default CalcUserInterface;
-
