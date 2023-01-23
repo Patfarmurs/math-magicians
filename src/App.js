@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import CalcUserInterface from './components/Calculator';
 
-// eslint-disable-next-line
-class App extends Component {
+class App extends PureComponent {
   render() {
     return (
-      <CalcUserInterface />
+      <div>
+        <CalcUserInterface />
+      </div>
     );
   }
 }
-
 export default App;
